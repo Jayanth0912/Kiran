@@ -134,3 +134,14 @@
 
 
 
+# from array import *
+# # val =array('i', [2,3,4,8,5])
+ # val.reverse()
+ # for i in range(len(val)):
+ # #     print(val[i])
+ # for e in val:
+#     print(e)
+
+
+
+
