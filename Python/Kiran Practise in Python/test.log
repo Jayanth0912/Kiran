@@ -1,0 +1,123 @@
+2022-07-03 18:55:16,171 :: practise.py :: 2022-07-03 18:55:16,171 :: 216 :: This is a debug Message in F1
+2022-07-03 18:55:16,171 :: practise.py :: 2022-07-03 18:55:16,171 :: 217 :: This is an Info Message in F1
+2022-07-03 18:55:16,171 :: practise.py :: 2022-07-03 18:55:16,171 :: 218 :: This is a warning Message in F1
+2022-07-03 18:55:16,171 :: practise.py :: 2022-07-03 18:55:16,171 :: 219 :: this is an Error Message in F1
+2022-07-03 18:55:16,171 :: practise.py :: 2022-07-03 18:55:16,171 :: 220 :: This is a Highly Critical Message in F1
+2022-07-03 18:55:16,171 :: Practise1.py :: 2022-07-03 18:55:16,171 :: 5 :: This is a debug Message in F2
+2022-07-03 18:55:16,171 :: Practise1.py :: 2022-07-03 18:55:16,171 :: 6 :: This is an Info Message in F2
+2022-07-03 18:55:16,171 :: Practise1.py :: 2022-07-03 18:55:16,171 :: 7 :: This is a warning Message in F2
+2022-07-03 18:55:16,171 :: Practise1.py :: 2022-07-03 18:55:16,171 :: 8 :: this is an Error Message in F2
+2022-07-03 18:55:16,171 :: Practise1.py :: 2022-07-03 18:55:16,171 :: 9 :: This is a Highly Critical Message in F2
+2022-07-03 18:55:50,180 :: practise.py :: 2022-07-03 18:55:50,180 :: 216 :: This is a debug Message in F1
+2022-07-03 18:55:50,181 :: practise.py :: 2022-07-03 18:55:50,181 :: 217 :: This is an Info Message in F1
+2022-07-03 18:55:50,181 :: practise.py :: 2022-07-03 18:55:50,181 :: 218 :: This is a warning Message in F1
+2022-07-03 18:55:50,181 :: practise.py :: 2022-07-03 18:55:50,181 :: 219 :: this is an Error Message in F1
+2022-07-03 18:55:50,181 :: practise.py :: 2022-07-03 18:55:50,181 :: 220 :: This is a Highly Critical Message in F1
+2022-07-03 18:55:50,181 :: Practise1.py :: 2022-07-03 18:55:50,181 :: 5 :: This is a debug Message in F2
+2022-07-03 18:55:50,181 :: Practise1.py :: 2022-07-03 18:55:50,181 :: 6 :: This is an Info Message in F2
+2022-07-03 18:55:50,181 :: Practise1.py :: 2022-07-03 18:55:50,181 :: 7 :: This is a warning Message in F2
+2022-07-03 18:55:50,181 :: Practise1.py :: 2022-07-03 18:55:50,181 :: 8 :: this is an Error Message in F2
+2022-07-03 18:55:50,181 :: Practise1.py :: 2022-07-03 18:55:50,181 :: 9 :: This is a Highly Critical Message in F2
+2022-07-03 19:06:25,081 :: _internal.py :: 2022-07-03 19:06:25,081 :: 224 ::  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-03 19:06:45,083 :: _internal.py :: 2022-07-03 19:06:45,083 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:06:54,179 :: serverMain.py :: 2022-07-03 19:06:54,179 :: 16 :: Successfully Executed Hello Wor1d
+2022-07-03 19:06:54,180 :: _internal.py :: 2022-07-03 19:06:54,180 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:06:54] "GET / HTTP/1.1" 200 -
+2022-07-03 19:06:54,211 :: _internal.py :: 2022-07-03 19:06:54,211 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:06:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-03 19:07:16,194 :: serverMain.py :: 2022-07-03 19:07:16,194 :: 16 :: Successfully Executed Hello Wor1d
+2022-07-03 19:07:16,195 :: _internal.py :: 2022-07-03 19:07:16,195 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:07:16] "GET / HTTP/1.1" 200 -
+2022-07-03 19:08:12,802 :: serverMain.py :: 2022-07-03 19:08:12,802 :: 25 :: Successfully Executed Add Nums
+2022-07-03 19:08:12,803 :: app.py :: 2022-07-03 19:08:12,803 :: 1456 :: Exception on /addNums [GET]
+Traceback (most recent call last):
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1735, in make_response
+    "The view function did not return a valid"
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+2022-07-03 19:08:12,805 :: _internal.py :: 2022-07-03 19:08:12,805 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:08:12] "[35m[1mGET /addNums?a=10&b=20 HTTP/1.1[0m" 500 -
+2022-07-03 19:08:34,195 :: serverMain.py :: 2022-07-03 19:08:34,195 :: 25 :: Successfully Executed Add Nums
+2022-07-03 19:08:34,195 :: app.py :: 2022-07-03 19:08:34,195 :: 1456 :: Exception on /addNums [GET]
+Traceback (most recent call last):
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1735, in make_response
+    "The view function did not return a valid"
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+2022-07-03 19:08:34,196 :: _internal.py :: 2022-07-03 19:08:34,196 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:08:34] "[35m[1mGET /addNums?a=10&b=20 HTTP/1.1[0m" 500 -
+2022-07-03 19:08:39,285 :: serverMain.py :: 2022-07-03 19:08:39,285 :: 25 :: Successfully Executed Add Nums
+2022-07-03 19:08:39,285 :: app.py :: 2022-07-03 19:08:39,285 :: 1456 :: Exception on /addNums [GET]
+Traceback (most recent call last):
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1735, in make_response
+    "The view function did not return a valid"
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a int.
+2022-07-03 19:08:39,286 :: _internal.py :: 2022-07-03 19:08:39,286 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:08:39] "[35m[1mGET /addNums HTTP/1.1[0m" 500 -
+2022-07-03 19:09:14,723 :: _internal.py :: 2022-07-03 19:09:14,723 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:09:24,086 :: serverMain.py :: 2022-07-03 19:09:24,086 :: 25 :: Successfully Executed Add Nums
+2022-07-03 19:09:24,087 :: _internal.py :: 2022-07-03 19:09:24,087 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:09:24] "GET /addNums HTTP/1.1" 200 -
+2022-07-03 19:09:39,869 :: serverMain.py :: 2022-07-03 19:09:39,869 :: 25 :: Successfully Executed Add Nums
+2022-07-03 19:09:39,869 :: _internal.py :: 2022-07-03 19:09:39,869 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:09:39] "GET /addNums?a=10&b=20 HTTP/1.1" 200 -
+2022-07-03 19:11:57,073 :: serverMain.py :: 2022-07-03 19:11:57,073 :: 28 :: invalid literal for int() with base 10: '10.9'
+2022-07-03 19:11:57,073 :: app.py :: 2022-07-03 19:11:57,073 :: 1456 :: Exception on /addNums [GET]
+Traceback (most recent call last):
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\gopat\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1702, in make_response
+    f"The view function for {request.endpoint!r} did not"
+TypeError: The view function for 'add_nums' did not return a valid response. The function either returned None or ended without a return statement.
+2022-07-03 19:11:57,079 :: _internal.py :: 2022-07-03 19:11:57,079 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:11:57] "[35m[1mGET /addNums?a=10.9&b=11.2 HTTP/1.1[0m" 500 -
+2022-07-03 19:13:49,891 :: serverMain.py :: 2022-07-03 19:13:49,891 :: 25 :: Successfully Executed Add Nums
+2022-07-03 19:13:49,892 :: _internal.py :: 2022-07-03 19:13:49,892 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:13:49] "GET /addNums?a=10&b=11 HTTP/1.1" 200 -
+2022-07-03 19:14:59,811 :: _internal.py :: 2022-07-03 19:14:59,811 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:15:28,357 :: serverMain.py :: 2022-07-03 19:15:28,357 :: 25 :: Successfully Executed Add Nums for
+
+2022-07-03 19:15:28,359 :: _internal.py :: 2022-07-03 19:15:28,359 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:15:28] "GET /addNums?a=10&b=110 HTTP/1.1" 200 -
+2022-07-03 19:15:40,787 :: serverMain.py :: 2022-07-03 19:15:40,787 :: 25 :: Successfully Executed Add Nums for 100 , 110
+2022-07-03 19:15:40,788 :: _internal.py :: 2022-07-03 19:15:40,788 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:15:40] "GET /addNums?a=100&b=110 HTTP/1.1" 200 -
+2022-07-03 19:16:33,439 :: _internal.py :: 2022-07-03 19:16:33,439 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:17:12,249 :: _internal.py :: 2022-07-03 19:17:12,249 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:18:02,964 :: serverMain.py :: 2022-07-03 19:18:02,964 :: 25 :: Successfully Executed Add Nums for 100 , 110
+2022-07-03 19:18:02,965 :: _internal.py :: 2022-07-03 19:18:02,965 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:18:02] "GET /addNums?a=100&b=110 HTTP/1.1" 200 -
+2022-07-03 19:18:14,290 :: serverMain.py :: 2022-07-03 19:18:14,290 :: 25 :: Successfully Executed Add Nums for 100 , 110
+2022-07-03 19:18:14,291 :: _internal.py :: 2022-07-03 19:18:14,291 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:18:14] "GET /addNums?a=100&b=110 HTTP/1.1" 200 -
+2022-07-03 19:18:21,954 :: serverMain.py :: 2022-07-03 19:18:21,954 :: 25 :: Successfully Executed Add Nums for 100 , 1000
+2022-07-03 19:18:21,954 :: _internal.py :: 2022-07-03 19:18:21,954 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:18:21] "GET /addNums?a=100&b=1000 HTTP/1.1" 200 -
+2022-07-03 19:20:10,249 :: practise.py :: 2022-07-03 19:20:10,249 :: 216 :: This is a debug Message in F1
+2022-07-03 19:20:10,250 :: practise.py :: 2022-07-03 19:20:10,250 :: 217 :: This is an Info Message in F1
+2022-07-03 19:20:10,250 :: practise.py :: 2022-07-03 19:20:10,250 :: 218 :: This is a warning Message in F1
+2022-07-03 19:20:10,250 :: practise.py :: 2022-07-03 19:20:10,250 :: 219 :: this is an Error Message in F1
+2022-07-03 19:20:10,250 :: practise.py :: 2022-07-03 19:20:10,250 :: 220 :: This is a Highly Critical Message in F1
+2022-07-03 19:20:10,266 :: _internal.py :: 2022-07-03 19:20:10,266 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:24:11,176 :: _internal.py :: 2022-07-03 19:24:11,176 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:24:32,473 :: practise.py :: 2022-07-03 19:24:32,473 :: 215 :: This is a debug Message in F1
+2022-07-03 19:24:32,474 :: practise.py :: 2022-07-03 19:24:32,474 :: 216 :: This is an Info Message in F1
+2022-07-03 19:24:32,474 :: practise.py :: 2022-07-03 19:24:32,474 :: 217 :: This is a warning Message in F1
+2022-07-03 19:24:32,474 :: practise.py :: 2022-07-03 19:24:32,474 :: 218 :: this is an Error Message in F1
+2022-07-03 19:24:32,474 :: practise.py :: 2022-07-03 19:24:32,474 :: 219 :: This is a Highly Critical Message in F1
+2022-07-03 19:24:32,474 :: Practise1.py :: 2022-07-03 19:24:32,474 :: 5 :: This is a debug Message in F2
+2022-07-03 19:24:32,474 :: Practise1.py :: 2022-07-03 19:24:32,474 :: 6 :: This is an Info Message in F2
+2022-07-03 19:24:32,474 :: Practise1.py :: 2022-07-03 19:24:32,474 :: 7 :: This is a warning Message in F2
+2022-07-03 19:24:32,474 :: Practise1.py :: 2022-07-03 19:24:32,474 :: 8 :: this is an Error Message in F2
+2022-07-03 19:24:32,474 :: Practise1.py :: 2022-07-03 19:24:32,474 :: 9 :: This is a Highly Critical Message in F2
+2022-07-03 19:28:01,819 :: _internal.py :: 2022-07-03 19:28:01,819 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
+2022-07-03 19:28:11,009 :: serverMain.py :: 2022-07-03 19:28:11,009 :: 25 :: Successfully Executed Add Nums for 100 , 1000
+2022-07-03 19:28:11,011 :: _internal.py :: 2022-07-03 19:28:11,011 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:28:11] "GET /addNums?a=100&b=1000 HTTP/1.1" 200 -
+2022-07-03 19:28:17,619 :: serverMain.py :: 2022-07-03 19:28:17,619 :: 25 :: Successfully Executed Add Nums for 100 , 10
+2022-07-03 19:28:17,620 :: _internal.py :: 2022-07-03 19:28:17,620 :: 224 :: 127.0.0.1 - - [03/Jul/2022 19:28:17] "GET /addNums?a=100&b=10 HTTP/1.1" 200 -
+2022-07-03 21:39:36,560 :: _internal.py :: 2022-07-03 21:39:36,560 :: 224 ::  * Running on http://127.0.0.1:7000 (Press CTRL+C to quit)
